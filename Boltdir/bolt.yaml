@@ -1,0 +1,4 @@
+ssh:
+  host-key-check: false
+winrm:
+  ssl: false

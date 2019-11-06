@@ -1,0 +1,21 @@
+---
+groups:
+  - name: linux
+    nodes:
+      - bolt-pdxnix27.classroom.puppet.com
+    config:
+      transport: ssh
+      ssh:
+        host-key-check: false
+        user: centos
+        run-as: root
+        private-key: /home/jpryor/Documents/bolt-workshop/student.pem
+  - name: windows
+    nodes:
+      - bolt-pdxwin27.classroom.puppet.com
+    config:
+      transport: winrm
+      winrm:
+        user: puppetinstructor
+        password: "@Pupp3t1abs"
+        ssl: false
