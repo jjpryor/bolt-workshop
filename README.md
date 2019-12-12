@@ -163,7 +163,7 @@ Finished on bolt-pdxnix27.classroom.puppet.com:
     bolt-pdxnix27.classroom.puppet.com
 Finished on bolt-pdxwin27.classroom.puppet.com:
   STDOUT:
-    EC2AMAZ-HE0EQDB
+    1234567890
 Successful on 2 nodes: bolt-pdxnix27.classroom.puppet.com,bolt-pdxwin27.classroom.puppet.com
 Ran on 2 nodes in 0.98 sec
 ```
