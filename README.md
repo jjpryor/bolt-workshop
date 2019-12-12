@@ -2,7 +2,6 @@
 
 [slides](http://bit.ly/2LWK1lE)
 
-
 [Get Windows Key at http://bit.ly/B0ltk3y](http://bit.ly/B0ltk3y) and Linux SSH key at [http://bit.ly/B0lts5h](http://bit.ly/B0lts5h)
 
 * Windows
@@ -388,7 +387,8 @@ MODULE:
 /home/jpryor/Documents/bolt-workshop/Boltdir/modules/tools
 ```
 
-Run it
+Run it:
+
 ```shell
 $ bolt task run tools::timesync --nodes windows
 Task tools::timesync:
@@ -479,24 +479,4 @@ Starting: task service::windows on bolt-pdxwin27.classroom.puppet.com
 Finished: task service::windows with 0 failures in 2.93 sec
 Finished: plan tools::timesync in 5.99 sec
 Plan completed successfully with no result
-```
-
-## Lab 10
-
-Install MV VS Code and Puppet extension
-
-## Lab 11
-
-Apply a Puppet Manifest
-```shell
-```
-
-## Lab 12
-
-```shell
-```
-
-## Lab 13
-
-```shell
 ```
